@@ -82,8 +82,10 @@ Proyek ini mengimplementasikan algoritma **XGBoost Classifier** dengan konfigura
 
 ## Evaluation
 
-Model diuji secara objektif menggunakan matriks data tes (20% data yang belum pernah dilihat model). Hasil performa evaluasi membuahkan hasil sebagai berikut:
+Model diuji secara objektif menggunakan matriks data tes (20% data yang belum pernah dilihat model). 
 <img width="572" height="268" alt="image" src="https://github.com/user-attachments/assets/4b9ac56c-f826-451c-b5a6-99d40564f6e1" />
+
+Hasil performa evaluasi membuahkan hasil sebagai berikut:
 
 * **Akurasi Model:** Mengalami peningkatan kestabilan di kisaran ~64% hingga 67% menggunakan arsitektur XGBoost.
 * **Analisis Karakteristik Data:** Angka akurasi ini merefleksikan kondisi nyata dataset *Water Potability* di mana parameter kimia air memiliki tingkat tumpang tindih (*overlapping*) yang sangat tinggi. Karakteristik ini membuat garis batas keputusan (*decision boundary*) menjadi sangat kompleks.
