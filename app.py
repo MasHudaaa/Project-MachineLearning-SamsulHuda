@@ -6,7 +6,7 @@ import numpy as np
 st.set_page_config(
     page_title="Water Potability Smart Checker", 
     page_icon="🚰",
-    layout="wide"  # Membuat tampilan web melebar (tidak sempit di tengah)
+    layout="wide"
 )
 
 # 2. Load Model Machine Learning
@@ -17,7 +17,7 @@ except:
 
 # 3. Desain Header / Judul Aplikasi dengan Gaya Keren
 st.markdown("<h1 style='text-align: center; color: #1E3A8A;'>🚰 Water Potability Smart Checker</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 18px; color: #4B5563;'>Sistem Deteksi Kelayakan Air Minum Berbasis Inteligensia Buatan (XGBoost)</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 18px; color: #4B5563;'>Sistem Deteksi Kelayakan Air Berbasis Inteligensia (XGBoost)</p>", unsafe_allow_html=True)
 st.markdown("<hr style='border: 1px solid #3B82F6;'>", unsafe_allow_html=True)
 
 st.write("Masukkan Parameter Indikator Air:")
@@ -53,7 +53,7 @@ if st.button("JALANKAN UJI KELAYAKAN AIR"):
     features = np.array([[ph, hardness, solids, chloramines, sulfate, conductivity, organic_carbon, trihalomethanes, turbidity]])
     prediction = model.predict(features)
     
-    st.markdown("<h3 style='text-align: center;'>HASIL ANALISIS MODEL AI:</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>HASIL ANALISIS KELAYAKAN:</h3>", unsafe_allow_html=True)
     
     if prediction[0] == 1:
         # Tampilan Kartu Hijau Besar Jika Layak
