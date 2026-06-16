@@ -1,9 +1,9 @@
-<img width="510" height="393" alt="image" src="https://github.com/user-attachments/assets/06ee3f5d-1c26-4622-8275-1d10c42a51e6" /># Project-MachineLearning-SamsulHuda
+# Project-MachineLearning-SamsulHuda
 # Laporan Proyek Machine Learning - Kelayakan Air Minum (Metodologi CRISP-DM)
 
 ## Project Overview
 
-![Water Quality](https://www.bing.com/images/search?view=detailV2&ccid=QLyj72td&id=1D20524000A547D8DCE75839FFA51AA6C1437CFB&thid=OIP.QLyj72tdxr25BjTJUcFDCgHaE7&mediaurl=https%3a%2f%2fwww.lovibond.in%2fwp-content%2fuploads%2f2025%2f01%2fWater-testing-2048x1365.jpg&exph=1365&expw=2048&q=water+quality&FORM=IRPRST&ck=F7EE043FA1344E1041C673B6BDBEC613&selectedIndex=3&itb=0)
+<img width="607" height="396" alt="fotoujikelayakanair" src="https://github.com/user-attachments/assets/6b1044f3-6c1c-4502-9ded-eaf2bf841628" />
 
 Akses terhadap air minum yang bersih, aman, dan layak konsumsi merupakan salah satu kebutuhan dasar manusia yang paling krusial sekaligus menjadi pilar penting dalam target *Sustainable Development Goals* (SDGs) nomor 6 mengenai air bersih dan sanitasi. Di banyak daerah, penentuan kualitas kelayakan air masih bertumpu pada pengujian laboratorium manual yang memakan waktu lama dan biaya operasional tinggi. 
 
@@ -85,7 +85,7 @@ Model diuji secara objektif menggunakan matriks data tes (20% data yang belum pe
 * **Akurasi Model:** Mengalami peningkatan kestabilan di kisaran ~64% hingga 67% menggunakan arsitektur XGBoost.
 * **Analisis Karakteristik Data:** Angka akurasi ini merefleksikan kondisi nyata dataset *Water Potability* di mana parameter kimia air memiliki tingkat tumpang tindih (*overlapping*) yang sangat tinggi. Karakteristik ini membuat garis batas keputusan (*decision boundary*) menjadi sangat kompleks.
 
-*(Petunjuk: Kamu bisa upload file gambar 'confusion_matrix.png' hasil download dari Colab ke GitHub kalian, lalu panggil gambarnya di bagian ini untuk mendapatkan nilai estetika laporan yang rapi).*
+<img width="510" height="393" alt="image" src="https://github.com/user-attachments/assets/06ee3f5d-1c26-4622-8275-1d10c42a51e6" />
 
 ---
 
