@@ -1,4 +1,4 @@
-# Project-MachineLearning-SamsulHuda
+<img width="510" height="393" alt="image" src="https://github.com/user-attachments/assets/06ee3f5d-1c26-4622-8275-1d10c42a51e6" /># Project-MachineLearning-SamsulHuda
 # Laporan Proyek Machine Learning - Kelayakan Air Minum (Metodologi CRISP-DM)
 
 ## Project Overview
@@ -94,4 +94,4 @@ Model diuji secara objektif menggunakan matriks data tes (20% data yang belum pe
 * **Kesimpulan:** Seluruh rangkaian metodologi CRISP-DM sukses diterapkan, mulai dari penentuan problem bisnis kualitas air, pembersihan data hilang menggunakan metode imputasi median, hingga penerapan pemodelan tingkat tinggi berbasis XGBoost Classifier.
 * **Deployment Status:** Model kecerdasan buatan telah diekspor ke dalam berkas `model_xgboost.pkl` dan sukses di-deploy ke peladen awan **Streamlit Community Cloud** secara *live* sehingga pengguna dapat memprediksi kelayakan air secara interaktif melalui peramban web kapan saja.
 
-🔗 **Tautan Aplikasi Live:** [Masukkan Link URL Streamlit Kalian di Sini!]
+🔗 **Tautan Aplikasi Live:** [https://project-machinelearning-samsulhuda-dys78sbeuuegt9koggebdp.streamlit.app/]
