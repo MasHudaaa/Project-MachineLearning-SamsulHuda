@@ -60,6 +60,7 @@ Setelah dilakukan analisis awal di dalam notebook, ditemukan masalah berupa nila
 ## Data Preparation
 
 Tahapan penyiapan data dilakukan secara teliti untuk memastikan model *machine learning* menerima input data yang berkualitas tinggi:
+<img width="606" height="301" alt="image" src="https://github.com/user-attachments/assets/6c7fdc5a-3bf6-4c77-af1a-0fafccff9cc2" />
 
 * **Handling Missing Values (Imputasi Median):** Alih-alih menghapus baris data kosong yang bisa mengurangi informasi, nilai *Null* pada fitur `ph`, `Sulfate`, dan `Trihalomethanes` diisi menggunakan nilai **Median (Nilai Tengah)** dari masing-masing fitur. Pendekatan median dipilih karena lebih aman terhadap pencilan (*outliers*) dibandingkan nilai rata-rata (*mean*).
 * **Pemisahan Data (Train-Test Split):**
@@ -82,6 +83,7 @@ Proyek ini mengimplementasikan algoritma **XGBoost Classifier** dengan konfigura
 ## Evaluation
 
 Model diuji secara objektif menggunakan matriks data tes (20% data yang belum pernah dilihat model). Hasil performa evaluasi membuahkan hasil sebagai berikut:
+<img width="572" height="268" alt="image" src="https://github.com/user-attachments/assets/4b9ac56c-f826-451c-b5a6-99d40564f6e1" />
 
 * **Akurasi Model:** Mengalami peningkatan kestabilan di kisaran ~64% hingga 67% menggunakan arsitektur XGBoost.
 * **Analisis Karakteristik Data:** Angka akurasi ini merefleksikan kondisi nyata dataset *Water Potability* di mana parameter kimia air memiliki tingkat tumpang tindih (*overlapping*) yang sangat tinggi. Karakteristik ini membuat garis batas keputusan (*decision boundary*) menjadi sangat kompleks.
