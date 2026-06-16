@@ -20,15 +20,6 @@ st.markdown("<h1 style='text-align: center; color: #1E3A8A;'>🚰 Water Potabili
 st.markdown("<p style='text-align: center; font-size: 18px; color: #4B5563;'>Sistem Deteksi Kelayakan Air Minum Berbasis Inteligensia Buatan (XGBoost)</p>", unsafe_allow_html=True)
 st.markdown("<hr style='border: 1px solid #3B82F6;'>", unsafe_allow_html=True)
 
-# Membuat 3 kolom bayangan untuk menaruh gambar tepat di tengah layar
-img_col1, img_col2, img_col3 = st.columns([1, 2, 1])
-
-with img_col2: # Gambar dimasukkan ke kolom tengah (kolom ke-2)
-    st.image(
-        "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?q=80&w=1000", 
-        width=450  # <-- Ukuran pixel sengaja dikunci ke 450 agar ukurannya pas dan ideal
-    )
-
 st.write("Masukkan Parameter Indikator Air:")
 
 # 4. PENATAAN LAYOUT (Dibagi Jadi 3 Kolom Biar Tidak Capek Scroll Ke Bawah)
