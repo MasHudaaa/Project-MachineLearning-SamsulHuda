@@ -49,6 +49,7 @@ Dataset yang digunakan bersumber dari Kaggle publik bernama **Water Potability D
 
 ### 🔍 Kondisi Awal Data (Eksplorasi):
 Setelah dilakukan analisis awal di dalam notebook, ditemukan masalah berupa nilai kosong (*missing values*) pada beberapa fitur krusial:
+<img width="467" height="275" alt="image" src="https://github.com/user-attachments/assets/211ca9d7-81be-4be7-874a-e4248e09413e" />
 * Kolom `ph`: 491 nilai kosong.
 * Kolom `Sulfate`: 781 nilai kosong.
 * Kolom `Trihalomethanes`: 162 nilai kosong.
